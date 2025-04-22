@@ -29,5 +29,7 @@ export interface IUploadConfig {
     customInsert?: (res: any, insertFn: InsertFn) => void;
     customUpload?: (files: File, insertFn: InsertFn) => void;
     customBrowseAndUpload?: (insertFn: InsertFn) => void;
+    uppyConfig?: Record<string, any>;
+    xhrConfig?: Record<string, any>;
 }
 export {};

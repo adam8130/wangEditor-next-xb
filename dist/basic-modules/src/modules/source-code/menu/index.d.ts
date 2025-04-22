@@ -6,4 +6,7 @@ import SourceCode from './SourceCode';
 export declare const sourceCodeConf: {
     key: string;
     factory(): SourceCode;
+    config: {
+        isActive: boolean;
+    };
 };
